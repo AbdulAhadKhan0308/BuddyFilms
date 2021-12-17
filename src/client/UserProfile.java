@@ -59,7 +59,7 @@ public class UserProfile {
     public void scheduleStreamListener(ActionEvent actionEvent) {
     }
 
-    public void joinSTreamListener(ActionEvent actionEvent) {
+    public void joinSecretStreamListener(ActionEvent actionEvent) {
     }
 
     public void showRequestListener(ActionEvent actionEvent) throws IOException, ClassNotFoundException {

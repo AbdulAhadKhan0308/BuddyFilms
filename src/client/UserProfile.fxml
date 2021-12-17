@@ -37,7 +37,7 @@
       <Button fx:id="showFriendListButton" layoutX="165.0" layoutY="352.0" mnemonicParsing="false" onAction="#showFriendListListener" text="My Friends List" />
       <Button fx:id="startStreamButton" layoutX="326.0" layoutY="145.0" mnemonicParsing="false" onAction="#startStreamListener" prefHeight="25.0" prefWidth="105.0" text="Start Stream" />
       <Button fx:id="scheduleStreamButton" layoutX="328.0" layoutY="209.0" mnemonicParsing="false" onAction="#scheduleStreamListener" text="Schedule Stream" />
-      <Button fx:id="joinStreamButton" layoutX="313.0" layoutY="286.0" mnemonicParsing="false" onAction="#joinSTreamListener" text="Join Stream with Code" />
+      <Button fx:id="joinStreamButton" layoutX="313.0" layoutY="286.0" mnemonicParsing="false" onAction="#joinSecretStreamListener" text="Join Stream with Code" />
       <TextField fx:id="streamCodeFiled" layoutX="306.0" layoutY="261.0" promptText="Enter Code for joining" />
       <Separator layoutX="291.0" layoutY="131.0" orientation="VERTICAL" prefHeight="180.0" prefWidth="6.0" />
       <BorderPane layoutX="49.0" layoutY="133.0" prefHeight="180.0" prefWidth="220.0">
@@ -48,7 +48,7 @@
             <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
          </center>
       </BorderPane>
-      <Button fx:id="showRequestButton" layoutX="300.0" layoutY="352.0" mnemonicParsing="false" onAction="#showRequestListener" text="Firends Requests" />
+      <Button fx:id="showRequestButton" layoutX="300.0" layoutY="352.0" mnemonicParsing="false" onAction="#showRequestListener" text="Friends Requests" />
       <Button fx:id="logoutButton" layoutX="353.0" layoutY="74.0" mnemonicParsing="false" onAction="#logoutListener" text="Logout" />
    </children>
 </AnchorPane>
